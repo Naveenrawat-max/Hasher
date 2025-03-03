@@ -21,10 +21,10 @@ This Python script is a simple hash cracker that attempts to find the plain text
 
 **Arguments:**
 ```
--hs or --hash: The hash value to crack.
--a or --algorithm: The hash algorithm used (e.g., md5, sha1, sha256, etc..).
--w or --wordlist: The path to the wordlist file (default: rockyou1.txt).
--all: Print all available hash algorithms:
+-hs, --hash    The hash value to crack.
+-a, --algorithm    The hash algorithm used (e.g., md5, sha1, sha256, etc..).
+-w, --wordlist    The path to the wordlist file (default: rockyou1.txt).
+-all    Print all available hash algorithms:
 ```
 
 
