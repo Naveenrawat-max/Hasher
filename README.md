@@ -20,11 +20,12 @@ This Python script is a simple hash cracker that attempts to find the plain text
 3. python Hasher.py -hs <hash_value> -a <algorithm> -w <wordlist_path>
 
 **Arguments:**
+```
 -hs or --hash: The hash value to crack.
 -a or --algorithm: The hash algorithm used (e.g., md5, sha1, sha256, etc..).
 -w or --wordlist: The path to the wordlist file (default: rockyou1.txt).
 -all: Print all available hash algorithms:
-
+```
 
 
 **example usage** :- Hasher.py -hs e691cb702f5d25642aa87009ef1948f8 -a md5 -w rockyou1.txt
